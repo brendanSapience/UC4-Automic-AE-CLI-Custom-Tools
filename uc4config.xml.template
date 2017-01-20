@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<configuration>
+	<paths>
+		<docu type="wh">C:\Automic\Documentation</docu>
+		<!--docu type="hh">../Documentation</docu-->
+		<!--browser type="Mozilla Firefox">/users/uc4/firefox/firefox</browser-->
+		<browser type="Google Chrome">C:\Program Files (x86)\Google\Chrome\Application\chrome.exe</browser>
+		<logging count="10">../temp/UCDJ_LOG_##.TXT</logging>
+		<trace count="10" ra="0" tcp="0" xml="0">../temp/UCDJ_TRC_##.TXT</trace>
+		<tcpip_keepalive>1</tcpip_keepalive>
+		<tcp_nodelay>1</tcp_nodelay>
+		<SendBufferSize>1048576</SendBufferSize>
+		<RecvBufferSize>1048576</RecvBufferSize>
+	</paths>
+	<colors>
+		<color b="0" g="0" r="255"/>
+		<color b="0" g="255" r="0"/>
+		<color b="255" g="152" r="42"/>
+		<color b="0" g="255" r="255"/>
+		<color b="14" g="178" r="241"/>
+		<color b="255" g="0" r="255"/>
+		<color b="255" g="255" r="255"/>
+		<color b="149" g="140" r="170"/>
+	</colors>
+	<timeout>60</timeout>
+	<connections>
+		<connection name="VM" system="AUTOMIC">
+				<cp ip="nohost" port="2217"/>
+				<cp ip="AETestHost" port="2210"/>
+				<cp ip="AETestHost" port="2217"/>
+				<cp ip="AETestHost" port="2218"/>
+      </connection>
+	</connections>
+</configuration>
